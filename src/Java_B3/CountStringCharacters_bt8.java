@@ -2,7 +2,7 @@ package Java_B3;
 
 import java.util.Scanner;
 
-public class CountStringCharacters_bt9 {
+public class CountStringCharacters_bt8 {
     public static void main(String[] args) {
         String str;
         Scanner scanner = new Scanner(System.in);

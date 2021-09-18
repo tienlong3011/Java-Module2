@@ -2,7 +2,7 @@ package Java_B3;
 
 import java.util.Scanner;
 
-public class RemoveElementFromArray {
+public class RemoveElementFromArray_bt1 {
     public static void main(String[] args) {
         int n, i, c;
         Scanner scanner = new Scanner(System.in);
