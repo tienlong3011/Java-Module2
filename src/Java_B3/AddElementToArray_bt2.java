@@ -34,8 +34,6 @@ public class AddElementToArray_bt2 {
                     arr[i] = X;
                 } else {
                     arr[i] = array[arrIndex++];
-                    System.out.println(arr[i]);
-                    System.out.println(array[arrIndex++]);
                 }
             }
 
