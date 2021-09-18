@@ -10,7 +10,7 @@ public class RemoveElementFromArray {
             System.out.println("Nhập vào số phần tử của mảng: ");
             n = scanner.nextInt();
         } while (n <= 0);
-        int A[] = new int[n];
+        int []A = new int[n];
         System.out.println("Nhập các phần tử cho mảng: ");
         for (i = 0; i < n; i++) {
             System.out.print("Nhập phần tử thứ " + i + ": ");
