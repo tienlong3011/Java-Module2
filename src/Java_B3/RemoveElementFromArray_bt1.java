@@ -24,6 +24,7 @@ public class RemoveElementFromArray_bt1 {
 // nếu phần tử tại vị trí i khác với số nguyên k
 // thì gán phần tử tại i cho phần tử tại k
 // sau đó tăng c lên 1
+
         for (c = i = 0; i < n; i++) {
             if (A[i] != k) { // 1 2 3 4 5 6 7 8 9
                 A[c] = A[i]; // 0 1 2 3 4 5 6 7 8
