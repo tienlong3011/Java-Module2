@@ -2,7 +2,7 @@ package Java_B3;
 
 import java.util.Scanner;
 
-public class MainDiagonalCalculation {
+public class MainDiagonalCalculation_bt7 {
     public static void main(String[] args) {
         System.out.println("Nhâp kích thước của ma trận vuông [i][i]");
         int index = checkInt(0,Integer.MAX_VALUE);
