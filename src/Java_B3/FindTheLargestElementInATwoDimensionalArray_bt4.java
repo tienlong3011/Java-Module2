@@ -5,24 +5,24 @@ import java.util.Scanner;
 public class FindTheLargestElementInATwoDimensionalArray_bt4 {
     public static void main(String[] args) {
         System.out.print("Nhập số dòng: ");
-        int row = checkInt(1, Integer.MAX_VALUE);
+        int row = checkInt(0, Integer.MAX_VALUE);
 
         System.out.print("Nhập số cột: ");
-        int column = checkInt(1, Integer.MAX_VALUE);
+        int column = checkInt(0, Integer.MAX_VALUE);
 
 
 
         int [][] array = new int[row][column];
 
-        for (int i = 0; i < column; i++) {
-            for (int j = 0; j < row; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
                 System.out.print("Nhập phần tử tại " + "array[" + i + "]["+ j + "] = ");
                 array[i][j] = checkInt(Integer.MIN_VALUE,Integer.MAX_VALUE);
             }
         }
         int max = array[0][0];
-        for (int i = 0; i < column; i++) {
-            for (int j = 0; j < row; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
                 if(max < array[i][j]){
                     max = array[i][j];
                 }
