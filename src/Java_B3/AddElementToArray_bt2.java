@@ -18,7 +18,7 @@ public class AddElementToArray_bt2 {
             array[j] = scanner1.nextInt();
         }
         Scanner scanner2 = new Scanner(System.in);
-        System.out.print("Nhập số cần thêm vào mảng");
+        System.out.println("Nhập số cần thêm vào mảng");
         int X = scanner2.nextInt();
 
         System.out.print("Nhập vị trí cần thêm vào mảng");
