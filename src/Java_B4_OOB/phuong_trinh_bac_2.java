@@ -1,4 +1,4 @@
-package Java_B4;
+package Java_B4_OOB;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class phuong_trinh_bac_2 {
     }
 
     public double getDiscriminant (){
-        return (getB() * getB()) - (4 * getA() * getC());
+        return Math.pow(b,2) - 4 * a * getC();
     }
 
     public double getRoot1(){

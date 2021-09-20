@@ -1,4 +1,4 @@
-package Java_B4;
+package Java_B4_OOB;
 
 import java.util.Scanner;
 
