@@ -7,21 +7,21 @@ public class AddElementToArray_bt2 {
         int size;
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.println("Nhập số lượng phần tử: ");
+            System.out.print("Nhập số lượng phần tử: ");
             size = scanner.nextInt();
         } while (size <= 0);
         int [] array = new int[size];
-        System.out.println("Nhập các phần tử trong mảng");
+        System.out.print("Nhập các phần tử trong mảng");
         for (int j = 0; j < size; j++) {
             Scanner scanner1 = new Scanner(System.in);
-            System.out.println("Phần tử thứ " + j + " là:");
+            System.out.print("Phần tử thứ " + j + " là:");
             array[j] = scanner1.nextInt();
         }
         Scanner scanner2 = new Scanner(System.in);
-        System.out.println("Nhập số cần thêm vào mảng");
+        System.out.print("Nhập số cần thêm vào mảng");
         int X = scanner2.nextInt();
 
-        System.out.println("Nhập vị trí cần thêm vào mảng");
+        System.out.print("Nhập vị trí cần thêm vào mảng");
         int index = checkInt(0,size);
             //x = 6
             //index = 1
@@ -37,7 +37,7 @@ public class AddElementToArray_bt2 {
                 }
             }
 
-        System.out.println("Mảng sau khi được thêm là ");
+        System.out.print("Mảng sau khi được thêm là ");
         for (int j = 0; j < arr.length; j++) {
             System.out.println(arr[j] + " ");
         }
