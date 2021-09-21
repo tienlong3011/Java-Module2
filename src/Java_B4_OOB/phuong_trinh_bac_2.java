@@ -3,13 +3,16 @@ package Java_B4_OOB;
 import java.util.Scanner;
 
 public class phuong_trinh_bac_2 {
+    //khai báo thuộc tính
     private double a;
     private double b;
     private double c;
 
     public phuong_trinh_bac_2() {
     }
-
+    //phương thức khởi tạo
+    //không có giá trị trả về
+    //chỉ tạo mới đối tượng
     public phuong_trinh_bac_2(double a, double b, double c) {
         this.a = a;
         this.b = b;
