@@ -1,4 +1,4 @@
-package Java_Accessmodifier_Static;
+package Java_B5_Accessmodifier_Static;
 
 public class Static_Method {
     private int rollno;

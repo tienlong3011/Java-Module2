@@ -1,7 +1,7 @@
-package Java_Accessmodifier_Static;
+package Java_B5_Accessmodifier_Static;
 
 public class xay_dung_lop_chi_ghi_trong_java {
-    private String name;
+   private String name;
     private String classes;
 
     public xay_dung_lop_chi_ghi_trong_java() {
