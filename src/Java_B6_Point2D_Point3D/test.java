@@ -6,5 +6,9 @@ public class test {
         System.out.println(point3D);
         point3D.setXYZ(1,3.2f,5);
         System.out.println(point3D);
+        System.out.println( point3D.getXYZ());
+        for (int i = 0; i < point3D.getXYZ().length; i++) {
+            System.out.println(point3D.getXYZ()[i]);
+        }
     }
 }
