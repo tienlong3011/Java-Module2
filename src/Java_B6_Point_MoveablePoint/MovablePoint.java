@@ -3,6 +3,7 @@ package Java_B6_Point_MoveablePoint;
 public class MovablePoint extends Point{
     private float xSpeed;
     private float ySpeed;
+    private Point point;
 
     public MovablePoint() {
     }
@@ -37,6 +38,7 @@ public class MovablePoint extends Point{
     public void setSpeed(float xSpeed , float ySpeed){
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
+        this.getySpeed();
     }
 
     public float[] getSpeed(){
